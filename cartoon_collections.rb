@@ -7,11 +7,10 @@ end
 
 def summon_captain_planet(array)
   array.map do
-    new_array = []
-    new_array <<
+    # new_array = []
     |word| word.capitalize + "!"
   end
-  new_array
+  # new_array
 end
 
 def long_planeteer_calls# code an argument here
