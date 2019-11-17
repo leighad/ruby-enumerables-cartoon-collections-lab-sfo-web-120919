@@ -18,7 +18,11 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.find { |string| string == cheese_types }
+  i = 0 
+  while i < cheese_types.length do
+  array.find { |string| string == cheese_types[i] }
+  i += 1
+  end
 end
 
 
