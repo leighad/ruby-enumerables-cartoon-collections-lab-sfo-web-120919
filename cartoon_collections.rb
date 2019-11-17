@@ -2,7 +2,7 @@ def roll_call_dwarves(array)
   # Your code here
   array.each_with_index do 
     |name, index|
-    puts "#{index}. *#{name}"
+    p "#{index}. *#{name}\n"
     end
 
 end
